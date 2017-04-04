@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* line 2, /Users/miyagikenta/Desktop/jsスクラッチ/07-01/sass/index07-01.scss */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+/* line 8, /Users/miyagikenta/Desktop/jsスクラッチ/07-01/sass/index07-01.scss */
+.clearfix:after {
+  content: "";
+  display: none;
+  clear: none; }
+
+/* line 14, /Users/miyagikenta/Desktop/jsスクラッチ/07-01/sass/index07-01.scss */
+form {
+  width: 500px;
+  margin: 100px auto 0; }
+
+/* line 18, /Users/miyagikenta/Desktop/jsスクラッチ/07-01/sass/index07-01.scss */
+#map-canvas {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #e7e7e7; }
+
+/*# sourceMappingURL=index07-01.css.map */

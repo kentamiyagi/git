@@ -1,0 +1,23 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: none;
+  clear: none;
+}
+
+form {
+  width: 500px;
+  margin: 100px auto 0;
+}
+#map-canvas {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #e7e7e7;
+}

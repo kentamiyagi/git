@@ -1,0 +1,50 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: none;
+  clear: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  margin: 50px;
+  font-size: 14px;
+}
+
+#glayLayer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.60;
+  z-index: 1;
+}
+
+#overLayer {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 300px;
+  margin-top: -150px;
+  margin-left: -250px;
+  z-index: 2;
+  
+}

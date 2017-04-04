@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>jsスクラッチ 07-01</title>
+  <link rel="stylesheet" href="sass/index07-01.css" type="text/css">
+
+</head>
+
+<body>
+    <form>
+      <input type="text" value="新宿御苑" id="address">
+      <input type="button" value="地図検索" id="button">
+    </form>
+
+    <!-- 地図を表示させる要素 -->
+    <div id="map-canvas"></div>
+
+  <!-- JavaScriptの読み込み -->
+  <script src="./js/index.js"></script>
+  <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApRaDMFszHHXc0QsUoNp-jwRkl7zmS0gM&callback=initMap">
+  </script>
+</body>
+
+</html>

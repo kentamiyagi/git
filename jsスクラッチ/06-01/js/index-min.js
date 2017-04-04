@@ -1,0 +1,1 @@
+$(function(){$("#tab li").click(function(){var i=$("#tab li").index(this);$("#post li").css("display","none"),$("#post li").eq(i).css("display","block")})});

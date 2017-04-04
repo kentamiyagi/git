@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* line 2, /Users/miyagikenta/Desktop/jsスクラッチ/03-01/sass/index03-01.scss */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+/* line 8, /Users/miyagikenta/Desktop/jsスクラッチ/03-01/sass/index03-01.scss */
+.clearfix:after {
+  content: "";
+  display: none;
+  clear: none; }
+
+/* line 13, /Users/miyagikenta/Desktop/jsスクラッチ/03-01/sass/index03-01.scss */
+#wrapper {
+  position: relative; }
+  /* line 15, /Users/miyagikenta/Desktop/jsスクラッチ/03-01/sass/index03-01.scss */
+  #wrapper #banner {
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    overflow: hidden; }
+    /* line 20, /Users/miyagikenta/Desktop/jsスクラッチ/03-01/sass/index03-01.scss */
+    #wrapper #banner ul {
+      width: 500px;
+      height: 1200px; }
+      /* line 23, /Users/miyagikenta/Desktop/jsスクラッチ/03-01/sass/index03-01.scss */
+      #wrapper #banner ul li {
+        width: 500px;
+        height: 300px; }
+        /* line 26, /Users/miyagikenta/Desktop/jsスクラッチ/03-01/sass/index03-01.scss */
+        #wrapper #banner ul li img {
+          width: 500px;
+          height: 300px; }
+  /* line 33, /Users/miyagikenta/Desktop/jsスクラッチ/03-01/sass/index03-01.scss */
+  #wrapper #pagenation {
+    position: absolute;
+    top: 50%;
+    right: 180px;
+    margin-top: -30px; }
+
+/*# sourceMappingURL=index03-01.css.map */

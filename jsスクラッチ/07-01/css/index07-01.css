@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.clearfix:after {
+  content: "";
+  display: none;
+  clear: none; }
+
+#wrapper {
+  width: 1000px;
+  height: 1000px; }
+  #wrapper #map-canvas {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto; }

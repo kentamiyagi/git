@@ -1,0 +1,65 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+#time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 80px;
+  margin: 100px;
+  
+}
+.num0 {
+  background: url(../images/number_0.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
+.num1 {
+  background: url(../images/number_1.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
+.num2 {
+  background: url(../images/number_2.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
+.num3 {
+  background: url(../images/number_3.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
+.num4 {
+  background: url(../images/number_4.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
+.num5 {
+  background: url(../images/number_5.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
+.num6 {
+  background: url(../images/number_6.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
+.num7 {
+  background: url(../images/number_7.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
+.num8 {
+  background: url(../images/number_8.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
+.num9 {
+  background: url(../images/number_9.png) no-repeat center;
+  width: 35px;
+  height: 80px;
+}
